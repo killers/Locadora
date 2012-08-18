@@ -55,5 +55,13 @@ namespace Video_System_Ultimate
             this.uSERSTableAdapter.Fill(this.bD_VIDEO_SYSTEM_ULTIMATEDataSet.USERS);
 
         }
+
+        private void FL_txtSenha_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                FL_btEntrar_Click(sender, e);
+            }
+        }
     }
 }

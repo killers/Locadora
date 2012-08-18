@@ -90,6 +90,7 @@
             this.FL_txtSenha.Name = "FL_txtSenha";
             this.FL_txtSenha.Size = new System.Drawing.Size(230, 22);
             this.FL_txtSenha.TabIndex = 4;
+            this.FL_txtSenha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FL_txtSenha_KeyPress);
             // 
             // FL_btEntrar
             // 
