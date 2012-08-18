@@ -63,5 +63,10 @@ namespace Video_System_Ultimate
                 FL_btEntrar_Click(sender, e);
             }
         }
+
+        private void Frm_Login_Shown(object sender, EventArgs e)
+        {
+            FL_txtUsuario.Focus();
+        }
     }
 }

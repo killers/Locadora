@@ -151,6 +151,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Video System Ultimate";
             this.Load += new System.EventHandler(this.Frm_Login_Load);
+            this.Shown += new System.EventHandler(this.Frm_Login_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.FL_IMG2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD_VIDEO_SYSTEM_ULTIMATEDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uSERSBindingSource)).EndInit();

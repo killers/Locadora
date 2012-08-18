@@ -77,11 +77,7 @@ namespace Video_System_Ultimate
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
+       
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -127,26 +123,7 @@ namespace Video_System_Ultimate
             
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void iTEMLOCACAODataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void Frm_Devolucao_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            
-        }
-
-        private void Frm_Devolucao_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
-        }
-
+        
         private void Calcularconta ()
         {
             decimal vl = 0;

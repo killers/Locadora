@@ -1,5 +1,4 @@
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.exe.config
-C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\BD_VIDEO_SYSTEM_ULTIMATE.mdb
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.exe
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.pdb
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\ResolveAssemblyReference.cache
@@ -28,3 +27,4 @@ C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\RdlCompile.compiled
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.exe
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.pdb
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\BD_VIDEO_SYSTEM_ULTIMATE.mdb
