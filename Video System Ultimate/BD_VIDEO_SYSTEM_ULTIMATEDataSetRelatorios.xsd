@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios" targetNamespace="http://tempuri.org/BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios.xsd" xmlns:mstns="http://tempuri.org/BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios.xsd" xmlns="http://tempuri.org/BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BD_VIDEO_SYSTEM_ULTIMATEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BD_VIDEO_SYSTEM_ULTIMATEConnectionString (Settings)" PropertyReference="ApplicationSettings.Video_System_Ultimate.Properties.Settings.GlobalReference.Default.BD_VIDEO_SYSTEM_ULTIMATEConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RelatoriohistretfilmesTableAdapter" GeneratorDataComponentClassName="RelatoriohistretfilmesTableAdapter" Name="Relatoriohistretfilmes" UserDataComponentName="RelatoriohistretfilmesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BD_VIDEO_SYSTEM_ULTIMATEConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ITEMLOCACAO.IDFILME, ITEMLOCACAO.IDLOCACAO, ITEMLOCACAO.DATADEVOLUCAO, FILME.TITULO, LOCACAO.CPFUSUARIO, LOCACAO.DATARETIRADA, 
+                         LOCACAO.HORARETIRADA, LOCACAO.DATAENTREGA, USUARIO.CPFUSUARIO AS Expr1, USUARIO.NOME
+FROM            (((ITEMLOCACAO INNER JOIN
+                         FILME ON ITEMLOCACAO.IDFILME = FILME.IDFILME) INNER JOIN
+                         LOCACAO ON ITEMLOCACAO.IDLOCACAO = LOCACAO.IDLOCACAO) INNER JOIN
+                         USUARIO ON LOCACAO.CPFUSUARIO = USUARIO.CPFUSUARIO)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IDFILME" DataSetColumn="IDFILME" />
+              <Mapping SourceColumn="IDLOCACAO" DataSetColumn="IDLOCACAO" />
+              <Mapping SourceColumn="DATADEVOLUCAO" DataSetColumn="DATADEVOLUCAO" />
+              <Mapping SourceColumn="TITULO" DataSetColumn="TITULO" />
+              <Mapping SourceColumn="CPFUSUARIO" DataSetColumn="CPFUSUARIO" />
+              <Mapping SourceColumn="DATARETIRADA" DataSetColumn="DATARETIRADA" />
+              <Mapping SourceColumn="HORARETIRADA" DataSetColumn="HORARETIRADA" />
+              <Mapping SourceColumn="DATAENTREGA" DataSetColumn="DATAENTREGA" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="NOME" DataSetColumn="NOME" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios" msprop:Generator_UserDSName="BD_VIDEO_SYSTEM_ULTIMATEDataSetRelatorios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Relatoriohistretfilmes" msprop:Generator_TableClassName="RelatoriohistretfilmesDataTable" msprop:Generator_TableVarName="tableRelatoriohistretfilmes" msprop:Generator_TablePropName="Relatoriohistretfilmes" msprop:Generator_RowDeletingName="RelatoriohistretfilmesRowDeleting" msprop:Generator_UserTableName="Relatoriohistretfilmes" msprop:Generator_RowChangingName="RelatoriohistretfilmesRowChanging" msprop:Generator_RowEvHandlerName="RelatoriohistretfilmesRowChangeEventHandler" msprop:Generator_RowDeletedName="RelatoriohistretfilmesRowDeleted" msprop:Generator_RowEvArgName="RelatoriohistretfilmesRowChangeEvent" msprop:Generator_RowChangedName="RelatoriohistretfilmesRowChanged" msprop:Generator_RowClassName="RelatoriohistretfilmesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDFILME" msprop:Generator_ColumnVarNameInTable="columnIDFILME" msprop:Generator_ColumnPropNameInRow="IDFILME" msprop:Generator_ColumnPropNameInTable="IDFILMEColumn" msprop:Generator_UserColumnName="IDFILME" type="xs:int" minOccurs="0" />
+              <xs:element name="IDLOCACAO" msprop:Generator_ColumnVarNameInTable="columnIDLOCACAO" msprop:Generator_ColumnPropNameInRow="IDLOCACAO" msprop:Generator_ColumnPropNameInTable="IDLOCACAOColumn" msprop:Generator_UserColumnName="IDLOCACAO" type="xs:int" minOccurs="0" />
+              <xs:element name="DATADEVOLUCAO" msprop:Generator_ColumnVarNameInTable="columnDATADEVOLUCAO" msprop:Generator_ColumnPropNameInRow="DATADEVOLUCAO" msprop:Generator_ColumnPropNameInTable="DATADEVOLUCAOColumn" msprop:Generator_UserColumnName="DATADEVOLUCAO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TITULO" msprop:Generator_ColumnVarNameInTable="columnTITULO" msprop:Generator_ColumnPropNameInRow="TITULO" msprop:Generator_ColumnPropNameInTable="TITULOColumn" msprop:Generator_UserColumnName="TITULO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPFUSUARIO" msprop:Generator_ColumnVarNameInTable="columnCPFUSUARIO" msprop:Generator_ColumnPropNameInRow="CPFUSUARIO" msprop:Generator_ColumnPropNameInTable="CPFUSUARIOColumn" msprop:Generator_UserColumnName="CPFUSUARIO" type="xs:double" minOccurs="0" />
+              <xs:element name="DATARETIRADA" msprop:Generator_ColumnVarNameInTable="columnDATARETIRADA" msprop:Generator_ColumnPropNameInRow="DATARETIRADA" msprop:Generator_ColumnPropNameInTable="DATARETIRADAColumn" msprop:Generator_UserColumnName="DATARETIRADA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HORARETIRADA" msprop:Generator_ColumnVarNameInTable="columnHORARETIRADA" msprop:Generator_ColumnPropNameInRow="HORARETIRADA" msprop:Generator_ColumnPropNameInTable="HORARETIRADAColumn" msprop:Generator_UserColumnName="HORARETIRADA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATAENTREGA" msprop:Generator_ColumnVarNameInTable="columnDATAENTREGA" msprop:Generator_ColumnPropNameInRow="DATAENTREGA" msprop:Generator_ColumnPropNameInTable="DATAENTREGAColumn" msprop:Generator_UserColumnName="DATAENTREGA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:double" minOccurs="0" />
+              <xs:element name="NOME" msprop:Generator_ColumnVarNameInTable="columnNOME" msprop:Generator_ColumnPropNameInRow="NOME" msprop:Generator_ColumnPropNameInTable="NOMEColumn" msprop:Generator_UserColumnName="NOME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

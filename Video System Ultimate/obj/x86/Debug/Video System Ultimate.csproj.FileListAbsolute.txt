@@ -1,0 +1,30 @@
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.exe.config
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\BD_VIDEO_SYSTEM_ULTIMATE.mdb
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.exe
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\Video System Ultimate.pdb
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadCidade.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadCliente.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadEstado.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadFilme.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadGenero.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Conta.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Devolucao.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Locacao.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Login.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_PesquisaFilme.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_PesquisaUsuario.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Preco.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Principal.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_RelData.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_RelHistUsuario.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Splash.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Users.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Properties.Resources.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.RelHistFilme.resources
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\RdlCompile.cache
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\RdlCompile.compiled
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.exe
+C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.pdb
