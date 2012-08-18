@@ -107,8 +107,7 @@ namespace Video_System_Ultimate
                 if (bool.Parse(iTEMLOCACAODataGridView[0, i].EditedFormattedValue.ToString()))
                 {
                     iTEMLOCACAODataGridView[4, i].Value = dateTimePicker1.Value.ToShortDateString();
-
-                    
+                                        
                 }
             }
             int id = int.Parse(iTEMLOCACAODataGridView[2, 0].Value.ToString());
@@ -118,9 +117,18 @@ namespace Video_System_Ultimate
                  
             MessageBox.Show("Devolução Efetuada com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
             dialogo = MessageBox.Show("Deseja fechar o formulário de Devolução?","Deseja sair?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if(dialogo == System.Windows.Forms.DialogResult.Yes)
-            this.Dispose();           
-            
+
+            if (dialogo == System.Windows.Forms.DialogResult.Yes)
+                this.Dispose();
+            else
+            {
+                int contlocacoes = this.iTEMLOCACAOTableAdapter.FillByfiltradevolver(this.bD_VIDEO_SYSTEM_ULTIMATEDataSet.ITEMLOCACAO, Convert.ToInt64(textBox1.Text));
+                if (contlocacoes == 0)
+                    button1.Enabled = false;
+                
+            }
+                
+                       
         }
 
         
@@ -155,6 +163,11 @@ namespace Video_System_Ultimate
                     }
                 }
             }
+        }
+
+        private void Frm_Devolucao_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

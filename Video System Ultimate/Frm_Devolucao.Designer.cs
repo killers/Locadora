@@ -106,7 +106,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados  da Devolução";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button2
             // 
@@ -138,7 +137,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label3
@@ -240,7 +238,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(36, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -337,7 +335,6 @@
             this.iTEMLOCACAODataGridView.Name = "iTEMLOCACAODataGridView";
             this.iTEMLOCACAODataGridView.Size = new System.Drawing.Size(614, 163);
             this.iTEMLOCACAODataGridView.TabIndex = 2;
-            this.iTEMLOCACAODataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.iTEMLOCACAODataGridView_CellContentClick);
             // 
             // Devolver
             // 
@@ -520,7 +517,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Devolução de Filmes";
             this.TopMost = true;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_Devolucao_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_Devolucao_FormClosed);
             this.Load += new System.EventHandler(this.Frm_Devolucao_Load);
             this.groupBox1.ResumeLayout(false);
