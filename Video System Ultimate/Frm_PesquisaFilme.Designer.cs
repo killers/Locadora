@@ -131,8 +131,10 @@
             this.fILMEDataGridView.Name = "fILMEDataGridView";
             this.fILMEDataGridView.ReadOnly = true;
             this.fILMEDataGridView.RowHeadersVisible = false;
+            this.fILMEDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.fILMEDataGridView.Size = new System.Drawing.Size(703, 284);
             this.fILMEDataGridView.TabIndex = 3;
+            this.fILMEDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.fILMEDataGridView_CellContentClick);
             this.fILMEDataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.fILMEDataGridView_CellDoubleClick);
             // 
             // dataGridViewTextBoxColumn1

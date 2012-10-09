@@ -28,3 +28,33 @@ C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.exe
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\obj\x86\Debug\Video System Ultimate.pdb
 C:\Users\THIAGO\Desktop\Locadora\Video System Ultimate\Video System Ultimate\bin\Debug\BD_VIDEO_SYSTEM_ULTIMATE.mdb
+F:\Locadora\Video System Ultimate\bin\Debug\Video System Ultimate.exe.config
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video System Ultimate.exe
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video System Ultimate.pdb
+F:\Locadora\Video System Ultimate\bin\Debug\BD_VIDEO_SYSTEM_ULTIMATE.mdb
+F:\Locadora\Video System Ultimate\bin\Debug\Video System Ultimate.exe
+F:\Locadora\Video System Ultimate\bin\Debug\Video System Ultimate.pdb
+F:\Locadora\Video System Ultimate\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadCidade.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadCliente.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadEstado.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadFilme.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_CadGenero.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Conta.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Devolucao.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Locacao.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Login.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_PesquisaFilme.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_PesquisaUsuario.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Preco.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Principal.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_RelData.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_RelHistUsuario.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Splash.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Frm_Users.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.Properties.Resources.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\Video_System_Ultimate.RelHistFilme.resources
+F:\Locadora\Video System Ultimate\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Locadora\Video System Ultimate\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Locadora\Video System Ultimate\obj\x86\Debug\RdlCompile.cache
+F:\Locadora\Video System Ultimate\obj\x86\Debug\RdlCompile.compiled

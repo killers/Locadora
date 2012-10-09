@@ -336,14 +336,14 @@ namespace Video_System_Ultimate
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            try
-            {
+            //try
+            //{
                 new Frm_PesquisaFilme(this).ShowDialog();
-            }
-            catch (Exception err)
-            {
-                MessageBox.Show("Clique na linha do filem que deseja", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            //}
+            //catch (Exception err)
+            //{
+            //    MessageBox.Show("Clique na linha do filem que deseja", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
         }
 
         private void Frm_Locacao_Activated(object sender, EventArgs e)

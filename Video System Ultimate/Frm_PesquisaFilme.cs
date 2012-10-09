@@ -67,14 +67,24 @@ namespace Video_System_Ultimate
                 
         private void iDGENEROComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-            this.fILMETableAdapter.FillByGEN(bD_VIDEO_SYSTEM_ULTIMATEDataSet.FILME, Convert.ToInt32(iDGENEROComboBox.SelectedValue.ToString()));
+            if (iDGENEROComboBox.Text != "")
+            {
+                this.fILMETableAdapter.FillByGEN(bD_VIDEO_SYSTEM_ULTIMATEDataSet.FILME, Convert.ToInt32(iDGENEROComboBox.SelectedValue.ToString()));
+            }
+            else
+            {
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             iDGENEROComboBox.Text = "";
             this.fILMETableAdapter.Fill(bD_VIDEO_SYSTEM_ULTIMATEDataSet.FILME);
+        }
+
+        private void fILMEDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         
